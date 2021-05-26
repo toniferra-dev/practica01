@@ -5,19 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
-        <!-- HEADER -->
-        <header>
-            <img src="" alt="" />
-            <nav class="menu"></nav>
-        </header>
-        <!-- MAIN -->
-        <main></main>
-        <!-- FOOTER -->
-        <footer>
-            <h6 class="copy">&copy;Copyright</h6>
-        </footer>
+            <!-- HEADER -->
+            <header>
+                <!-- BANNER -->
+                <picture>
+                    <!-- SMARTPHONE -->
+                    <source
+                        srcset="
+                            ./img/smartphone/banner.jpg    1x,
+                            ./img/smartphone/banner@2x.jpg 2x,
+                            ./img/smartphone/banner@3x.jpg 3x
+                        "
+                        media="(min-width:320px) and (orientation:portrait)"
+                    />
+                    <!-- DESKTOP -->
+                    <source
+                        srcset="
+                            ./img/desktop/banner.jpg    1x,
+                            ./img/desktop/banner@2x.jpg 2x,
+                            ./img/desktop/banner@3x.jpg 3x
+                        "
+                        media="(min-width:1000px)"
+                    />
+                    <img class="banner" src="" alt="" />
+                </picture>
+            </header>
+            <!-- MAIN -->
+            <main></main>
+            <!-- FOOTER -->
+            <footer></footer>
     </body>
 </html>

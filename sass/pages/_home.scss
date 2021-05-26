@@ -1,2 +1,6 @@
 /* @HOME */
 /* ********** */
+
+body{
+    background-color: map-get($colores, colorfondo);
+}

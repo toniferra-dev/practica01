@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* **************************** */
+/* IMPORTAR PARCIALES PARA COMPILAR */
+/* **************************** */
+/* @RESET */
+/* ********** */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* @VARIABLES */
+/* ********** */
+/* @TIPOGRAFÍA */
+/* ********** */
+/* @MIXIN */
+/* ********** */
+/* @BOTONES */
+/* ********** */
+/* @CARRUSEL */
+/* ********** */
+/* @COVER_BANNER */
+/* ********** */
+.banner {
+  width: 100%;
+  border-top-right-radius: 150px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .banner {
+    border-radius: 0;
+  }
+}
+
+/* @GRIDS */
+/* ********** */
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .contenedor {
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .contenedor {
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 24px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .contenedor {
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+}
+
+/* @FORMULARIOS */
+/* ********** */
+/* @NAVEGACIÓN */
+/* ********** */
+/* @HOME */
+/* ********** */
+body {
+  background-color: #D0EEFF;
+}
+
+/* @CONTACTAR */
+/* ********** */
+/*# sourceMappingURL=main.css.map */
