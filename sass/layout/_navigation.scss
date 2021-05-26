@@ -1,0 +1,47 @@
+/* @NAVEGACIÓN */
+/* ********** */
+
+// NAV (sistema principal en header)
+.menuPrincipal {
+    background-color: map-get($colores, negro);
+    width: 100vw;
+    height: calc(100vh - 55px);
+    // Flex
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    a{
+        color: map-get($colores, amarillo);
+        text-decoration: uppercase;
+        font-size: 1.5rem;
+        padding: .6875rem;
+    }
+    &__servicios {
+    }
+    &__proyectos {
+    }
+    &__contactar {
+    }
+}
+
+// <UL> Redes Sociales
+.redes {
+
+    a{
+        color: map-get($colores, blanco);
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    &__titulo {
+        color: map-get($colores, blanco);
+        font-size: 1.125rem;
+        font-family: $fontFamily-bold;
+    }
+    &__twitter {
+    }
+    &__pinterest {
+    }
+    &__instagram {
+    }
+}

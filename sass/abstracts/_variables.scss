@@ -1,0 +1,31 @@
+/* @VARIABLES */
+/* ********** */
+
+// TIPOGRAFIA
+$fontSize: 16px;
+$fontFamily: "", sans-serif;
+$fontFamily-bold: "", sans-serif;
+
+// COLORES
+$colores: (
+    negro: #3A3A3A,
+    blanco: #F5F5F5
+);
+
+// TAMAÑOS
+$dispositivos: (
+    smartphone: 360px,
+    ipad: 768px,
+    desktop: 1366px
+);
+
+$breakpoints: (
+    smartphone: 320px,
+    ipad: 768px,
+    desktop: 1100px
+);
+
+$margenes: (
+    internos: 20px,
+    navHorizontal: 10px
+);

@@ -1,0 +1,36 @@
+/* @GRIDS */
+/* ********** */
+
+// Grids que unifican Figma con Sass
+
+// gridMQ
+    // Grid para Smartphone
+    @media only screen and (min-width: map-get($breakpoints, smartphone)) and (orientation: portrait) {
+        .contenedor {
+            padding: 0 16px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 16px;
+        }
+    }
+
+    // Grid para iPad
+    @media only screen and (min-width: map-get($breakpoints, ipad)) and (orientation: portrait) {
+        .contenedor {
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-column-gap: 24px;
+        }
+    }
+
+    // Grid para Desktop
+    @media only screen and (min-width: map-get($breakpoints, desktop)) {
+        .contenedor {
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column-gap: 24px;
+        }
+    }
+

@@ -1,0 +1,29 @@
+/* @TIPOGRAFÍA */
+/* ********** */
+
+// FONT-FACE
+@font-face {
+    font-family: "";
+    src:    url(../../font/.woff2) format("woff2"),
+            url(../../font/.woff) format("woff");
+}
+
+html{
+    font-size: 16px;
+    font-family: $fontFamily;
+    color: map-get($colores, negro);
+}
+
+// Clases Tipográficas
+.titulo{
+
+}
+.subtitulo{
+
+}
+.parrafo{
+
+}
+.copy{
+
+}

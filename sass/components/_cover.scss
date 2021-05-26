@@ -1,0 +1,18 @@
+/* @COVER_BANNER */
+/* ********** */
+
+// img(picture)
+.banner{
+    // mobile first
+    grid-column: 1 / span-1;
+    
+    // ipad
+    @media only screen and (min-width: map-get($breakpoints, ipad)) and (orientation: portrait) {
+        grid-column: 2 / span 6;
+        
+    }
+    // desktop
+    @media only screen and (min-width: map-get($breakpoints, desktop)) {
+        display: none;
+    }
+}
